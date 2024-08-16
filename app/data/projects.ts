@@ -3,44 +3,42 @@ import { SingleProject } from "../components/Project";
 const rfTrainingSGS = "./video/rfTrainingSGS.mp4";
 const netflik = "./video/netflik.mp4";
 const chartMyJog = "./video/chartMyJog.mp4";
+const calcQuest = "./video/calcQuest.mp4";
 
 // import emojiStore from "../assets/img/emoji-store.png";
 // import dsa from "../assets/img/dsa.png";
-// import portfolio from "../assets/img/portfolio.gif";
 
 const projects: SingleProject[] = [
   {
+    name: "CalcQuest",
+    description:
+      "CalcQuest is a SaaS platform that utilizes AI to help students improve math skills through engaging activities.",
+    github: "https://github.com/AiDabblers/Flash_Card",
+    website: "https://calcquest.netlify.app/",
+    video: calcQuest,
+  },
+  {
     name: "Chart My Jog",
     description:
-      "Chart My Jog is a fitness application built with React, Tailwind, Material UI, Firebase, Firestore, Mapbox API, Leaflet, React-leaflet, and Geolocation API. Chart My Jog helps users track and record their jogs in real-time and render their route on a digital map. Users can view and share their accomplishments and track their progress throughout their lifetime.",
-    github: "https://github.com/KYu-2468/ChartMyJog",
+"Chart My Jog is a fitness app built with React, Tailwind, Material UI, Firebase, Firestore, Mapbox, Leaflet, and the Geolocation API. It tracks and records jogs in real-time, displaying routes on a map. Users can track progress, view, and share their accomplishments.",    github: "https://github.com/KYu-2468/ChartMyJog",
     website: "https://chart-my-jog.web.app/",
     video: chartMyJog,
   },
   {
     name: "RF Training",
     description:
-      "RF Traning Website is an independent project built with React, Tailwind, Windmill, and Firebase. It enabled new SGS hires (Interns, Technicians, and Engineers) to learn 4G/5G RF system operations, improved the efficiency of the onboarding process by 55%, and reduced the cost of training by 65%. Firebase Authentication and Storage Security rules are implemented to protect sensitive materials from unauthorized personnel.",
-    github: "https://github.com/KYu-2468/RF-Training",
+"RF Training Website is an independent project built with React, Tailwind, Windmill, and Firebase. It helped new SGS hires learn 4G/5G RF systems, improving onboarding efficiency by 55% and reducing training costs by 65%. Firebase Authentication and Storage rules secure sensitive materials.",    github: "https://github.com/KYu-2468/RF-Training",
     website: "https://rf-training-sgs.web.app/",
     video: rfTrainingSGS,
   },
   {
-    name: "NetfliK",
+    name: "Netflix-clone",
     description:
       "Netflix is one of the most popular streaming services currently available in the market. Netflik is built with React, Tailwind, TMDB API, React-Youtube, and AWS Amplify. All current videos are trailers of the corresponding movies.",
     github: "https://github.com/KYu-2468/netflixk",
     website: "https://prod.d3w3n4pah8m9bk.amplifyapp.com",
     video: netflik,
   },
-  // {
-  //   name: "Portfolio",
-  //   description:
-  //     "This portfolio website was built from scratch by Kevin Yu with TypeScript, React, Tailwind, and GitHub Pages.",
-  //   github: "https://github.com/KYu-2468/KYu-2468.github.io",
-  //   website: "https://kyu-2468.github.io/",
-  //   image: portfolio,
-  // },
   // {
   //   name: "Emoji Store",
   //   description:

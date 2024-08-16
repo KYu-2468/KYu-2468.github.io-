@@ -1,13 +1,15 @@
 import React from "react";
 
 interface TitleProps {
-  children: any;
+	children: any;
 }
 
 const Title = ({ children }: TitleProps) => {
-  return (
-    <div className="m-4 text-lg font-semibold md:text-3xl">{children}</div>
-  );
+	return (
+		<div className="dark:text-white m-4 text-xl font-bold text-center md:text-3xl lg:text-4xl text-black font-sans">
+			{children}
+		</div>
+	);
 };
 
 export default Title;

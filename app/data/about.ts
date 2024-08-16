@@ -4,7 +4,7 @@ interface InfoProp {
 }
 
 export const infos: InfoProp[] = [
-  { key: "Professional Experience", value: "<1 year" },
+  { key: "Professional Experience", value: "1.5 years" },
   { key: "Location", value: "San Diego, CA, USA" },
   { key: "Education", value: "Fullstack Academy" },
   { key: "Past Experience", value: "RF Testing (Engineering) - 5 years" },
